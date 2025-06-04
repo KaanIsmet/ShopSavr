@@ -1,0 +1,26 @@
+/* Sign Up Button Styling */
+.signup-button {
+    background-color: #5B9BD5; /* Your custom blue color */
+    color: white;
+    padding: 6px 60px;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: none;
+    cursor: pointer;
+  }
+  
+  .signup-button:hover {
+    background-color: #4A8BC2; /* Slightly darker on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transform: translateY(-1px);
+  }
+  
+  .signup-button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }

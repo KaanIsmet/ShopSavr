@@ -48,7 +48,7 @@ export default function Navbar() {
                     {/* Right side: Sign Up Button */}
                     <Link 
                         href="/signup"
-                        className="bg-blue-500 text-white px-8 py-3 rounded-lg text-lg font-semibold hover:bg-blue-600 transition-colors"
+                        className="signup-button"
                     >
                         Sign up
                     </Link>
