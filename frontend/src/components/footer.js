@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export default function Footer() {
     return (
-        <footer className="bg-black text-white py-16">
+        <footer className="relative bg-black text-white py-16">
             <div className="max-w-7xl mx-auto px-6">
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
                     {/* Logo Section */}
@@ -54,7 +54,7 @@ export default function Footer() {
                                 What does the AI assistant help with?
                             </Link>
                             <Link href="/help/premium-plan" className="block text-blue-400 hover:text-blue-300 transition-colors">
-                                What can the premium plan do?
+                                What can the pro plan do?
                             </Link>
                             <Link href="/help/free-trial" className="block text-blue-400 hover:text-blue-300 transition-colors">
                                 How do I start my free trial?

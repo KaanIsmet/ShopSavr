@@ -24,3 +24,60 @@
     transform: translateY(0);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
+
+  .message-button {
+    background-color: #1D86F5; /* Your custom blue color */
+    color: white;
+    padding: 6px 60px;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: none;
+    cursor: pointer;
+  }
+  
+  .message-button:hover {
+    background-color: #4A8BC2; /* Slightly darker on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transform: translateY(-1px);
+  }
+  
+  .message-button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .my-box {
+    background-color: #4A8BC2;
+    height: 200;
+    width: 500;
+  }
+
+  .underline-input {
+    border: none;
+    border-bottom: 1px solid #333;
+    outline: none;
+    background: transparent;
+    padding: 5px 60px;
+}
+
+.underline-input:focus {
+    border-bottom: 2px solid #007bff; /* Blue underline on focus */
+}
+
+.long-underline {
+    border: 1.25px solid #333;
+    outline: none;
+    background: transparent;
+    padding: 12px;
+    border-radius: 8px;
+    transition: border-color 0.3s ease;
+}
+
+.long-underline:focus {
+    border-color: #007bff; /* Blue border on focus */
+}
