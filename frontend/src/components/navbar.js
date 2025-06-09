@@ -27,7 +27,7 @@ export default function Navbar() {
                         </Link>
                         
                         <div className="flex items-center space-x-8">  {/* Increased spacing */}
-                            <Link href="#features" className="text-lg text-black hover:text-gray-700">  {/* Changed to black */}
+                            <Link href="/#features" className="text-lg text-black hover:text-gray-700" scroll={true}>  {/* Changed to black */}
                                 Features
                             </Link>
                             <Link href="/about" className="text-lg text-black hover:text-gray-700">
