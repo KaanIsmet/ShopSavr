@@ -15,16 +15,17 @@ export default function Footer() {
                     </div>
 
                     {/* Company Section */}
+                    {/*Partnership does not lead to link to anywhere yet*/}
                     <div>
                         <h3 className="text-lg font-semibold mb-6">Company</h3>
                         <div className="space-y-4">
-                            <Link href="/partnership" className="block text-blue-400 hover:text-blue-300 transition-colors">
+                            <Link href="/" className="block text-blue-400 hover:text-blue-300 transition-colors"> 
                                 Partnership
                             </Link>
                             <Link href="/contact" className="block text-blue-400 hover:text-blue-300 transition-colors">
                                 Contact
                             </Link>
-                            <Link href="/help" className="block text-blue-400 hover:text-blue-300 transition-colors">
+                            <Link href="/faqs" className="block text-blue-400 hover:text-blue-300 transition-colors">
                                 Help
                             </Link>
                         </div>
@@ -50,13 +51,13 @@ export default function Footer() {
                     <div>
                         <h3 className="text-lg font-semibold mb-6">Help</h3>
                         <div className="space-y-4">
-                            <Link href="/help/ai-assistant" className="block text-blue-400 hover:text-blue-300 transition-colors">
+                            <Link href="/faqs" className="block text-blue-400 hover:text-blue-300 transition-colors">
                                 What does the AI assistant help with?
                             </Link>
-                            <Link href="/help/premium-plan" className="block text-blue-400 hover:text-blue-300 transition-colors">
+                            <Link href="/faqs" className="block text-blue-400 hover:text-blue-300 transition-colors">
                                 What can the pro plan do?
                             </Link>
-                            <Link href="/help/free-trial" className="block text-blue-400 hover:text-blue-300 transition-colors">
+                            <Link href="/faqs" className="block text-blue-400 hover:text-blue-300 transition-colors">
                                 How do I start my free trial?
                             </Link>
                         </div>
@@ -68,10 +69,10 @@ export default function Footer() {
                     <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
                         <p className="text-gray-400">Savr Tech © 2025</p>
                         <div className="flex space-x-6">
-                            <Link href="/privacy" className="text-blue-400 hover:text-blue-300 transition-colors">
+                            <Link href="/policy" className="text-blue-400 hover:text-blue-300 transition-colors">
                                 Privacy Policy
                             </Link>
-                            <Link href="/terms" className="text-blue-400 hover:text-blue-300 transition-colors">
+                            <Link href="/policy" className="text-blue-400 hover:text-blue-300 transition-colors">
                                 Terms
                             </Link>
                         </div>
