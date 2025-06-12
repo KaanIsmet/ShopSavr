@@ -171,20 +171,20 @@ export default function About() {
                     </h2>
                     <div className="grid md:grid-cols-4 gap-8 text-center">
                         <div>
-                            <div className="text-4xl font-bold text-white mb-2">50K+</div>
-                            <div className="text-blue-100">Happy Shoppers</div>
+                            <div className="text-4xl font-bold text-white mb-2">2,500+</div>
+                            <div className="text-blue-100">Beta Users</div>
                         </div>
                         <div>
-                            <div className="text-4xl font-bold text-white mb-2">$2M+</div>
-                            <div className="text-blue-100">Money Saved</div>
+                            <div className="text-4xl font-bold text-white mb-2">$125K+</div>
+                            <div className="text-blue-100">Savings Tracked</div>
                         </div>
                         <div>
-                            <div className="text-4xl font-bold text-white mb-2">1M+</div>
-                            <div className="text-blue-100">Products Tracked</div>
+                            <div className="text-4xl font-bold text-white mb-2">85K+</div>
+                            <div className="text-blue-100">Products Cataloged</div>
                         </div>
                         <div>
-                            <div className="text-4xl font-bold text-white mb-2">99.9%</div>
-                            <div className="text-blue-100">Price Accuracy</div>
+                            <div className="text-4xl font-bold text-white mb-2">4.8★</div>
+                            <div className="text-blue-100">Beta Rating</div>
                         </div>
                     </div>
                 </div>
