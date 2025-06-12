@@ -9,7 +9,7 @@ import CallToAction from "@/components/call_to_action";
 import {SmoothScrolling} from "@/components/smooth_scroll";
 
 export default function Home() {
-  SmoothScrolling()
+  //SmoothScrolling()
   return ( 
     <div>
       <Navbar></Navbar>
