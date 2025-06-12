@@ -1,5 +1,3 @@
-
-import { response } from 'express';
 import nodemailer from 'nodemailer'
 
 export async function POST(request) {
