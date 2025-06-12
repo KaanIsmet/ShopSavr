@@ -13,7 +13,7 @@ export default function Home() {
   return ( 
     <div>
       <Navbar></Navbar>
-      <div className=" bg-blue-200 h-200">
+      <div className=" bg-blue-200 h-200 py-10">
         <div className="max-w-7xl mx-auto px-4">
           <br/>
           <br/>

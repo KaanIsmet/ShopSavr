@@ -1,6 +1,6 @@
 /* Sign Up Button Styling */
 .signup-button {
-    background-color: #5B9BD5; /* Your custom blue color */
+    background-color: #5B9BD5;
     color: white;
     padding: 6px 60px;
     border-radius: 12px;
@@ -12,52 +12,110 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border: none;
     cursor: pointer;
-  }
-  
-  .signup-button:hover {
-    background-color: #4A8BC2; /* Slightly darker on hover */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-    transform: translateY(-1px);
-  }
-  
-  .signup-button:active {
-    transform: translateY(0);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
+}
 
-  .message-button {
-    background-color: #1D86F5; /* Your custom blue color */
-    color: white;
-    padding: 6px 60px;
-    border-radius: 12px;
-    font-size: 18px;
-    font-weight: 600;
-    text-decoration: none;
-    display: inline-block;
-    transition: all 0.2s ease-in-out;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border: none;
-    cursor: pointer;
-  }
-  
-  .message-button:hover {
-    background-color: #4A8BC2; /* Slightly darker on hover */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-    transform: translateY(-1px);
-  }
-  
-  .message-button:active {
-    transform: translateY(0);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
+/* Mobile styles for signup button */
+@media (max-width: 767px) {
+    .signup-button {
+        padding: 8px 30px;
+        font-size: 16px;
+        width: 100%;
+        text-align: center;
+        max-width: 280px;
+    }
+}
 
-  .my-box {
+/* Tablet styles for signup button */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .signup-button {
+        padding: 7px 45px;
+        font-size: 17px;
+    }
+}
+
+.signup-button:hover {
     background-color: #4A8BC2;
-    height: 200;
-    width: 500;
-  }
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transform: translateY(-1px);
+}
 
-  .underline-input {
+.signup-button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Message Button Styling */
+.message-button {
+    background-color: #1D86F5;
+    color: white;
+    padding: 6px 60px;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: none;
+    cursor: pointer;
+}
+
+/* Mobile styles for message button */
+@media (max-width: 767px) {
+    .message-button {
+        padding: 8px 30px;
+        font-size: 16px;
+        width: 100%;
+        text-align: center;
+        max-width: 280px;
+    }
+}
+
+/* Tablet styles for message button */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .message-button {
+        padding: 7px 45px;
+        font-size: 17px;
+    }
+}
+
+.message-button:hover {
+    background-color: #4A8BC2;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transform: translateY(-1px);
+}
+
+.message-button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Box Styling */
+.my-box {
+    background-color: #4A8BC2;
+    height: 200px;
+    width: 500px;
+}
+
+/* Mobile styles for box */
+@media (max-width: 767px) {
+    .my-box {
+        width: 100%;
+        max-width: 350px;
+        height: 150px;
+    }
+}
+
+/* Tablet styles for box */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .my-box {
+        width: 400px;
+        height: 175px;
+    }
+}
+
+/* Input Styling */
+.underline-input {
     border: none;
     border-bottom: 1px solid #333;
     outline: none;
@@ -65,8 +123,24 @@
     padding: 5px 60px;
 }
 
+/* Mobile styles for underline input */
+@media (max-width: 767px) {
+    .underline-input {
+        padding: 5px 20px;
+        width: 100%;
+        max-width: 280px;
+    }
+}
+
+/* Tablet styles for underline input */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .underline-input {
+        padding: 5px 40px;
+    }
+}
+
 .underline-input:focus {
-    border-bottom: 2px solid #007bff; /* Blue underline on focus */
+    border-bottom: 2px solid #007bff;
 }
 
 .long-underline {
@@ -78,28 +152,81 @@
     transition: border-color 0.3s ease;
 }
 
-.long-underline:focus {
-    border-color: #007bff; /* Blue border on focus */
+/* Mobile styles for long underline */
+@media (max-width: 767px) {
+    .long-underline {
+        padding: 10px;
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
 }
 
+/* Tablet styles for long underline */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .long-underline {
+        padding: 11px;
+    }
+}
+
+.long-underline:focus {
+    border-color: #007bff;
+}
+
+/* Card Styling */
 .card {
-  background-color: white;
-  border-radius: 0.75rem;
-  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
-  padding: 1.5rem;
-  transition: box-shadow 0.3s ease;
+    background-color: white;
+    border-radius: 0.75rem;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    padding: 1.5rem;
+    transition: box-shadow 0.3s ease;
+}
+
+/* Mobile styles for card */
+@media (max-width: 767px) {
+    .card {
+        padding: 1rem;
+        margin: 0 1rem;
+    }
+}
+
+/* Tablet styles for card */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .card {
+        padding: 1.25rem;
+    }
 }
 
 .card:hover {
-  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
 }
 
+/* Card Signup Styling */
 .card-signup {
-  background-color: white;
-  border-radius: 0.75rem;
-  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
-  padding: 2rem;
-  max-width: 28rem;
-  margin: 0 auto;
-  min-height: 24rem;
+    background-color: white;
+    border-radius: 0.75rem;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    padding: 2rem;
+    max-width: 28rem;
+    margin: 0 auto;
+    min-height: 24rem;
+}
+
+/* Mobile styles for card signup */
+@media (max-width: 767px) {
+    .card-signup {
+        padding: 1.5rem;
+        max-width: 90%;
+        min-height: 20rem;
+        margin: 0 auto;
+    }
+}
+
+/* Tablet styles for card signup */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .card-signup {
+        padding: 1.75rem;
+        max-width: 24rem;
+        min-height: 22rem;
+    }
 }
