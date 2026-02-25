@@ -13,14 +13,8 @@ export default function Home() {
   return ( 
     <div>
       <Navbar></Navbar>
-      <div className=" bg-blue-200 h-200 py-10">
-        <div className="max-w-7xl mx-auto px-4">
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
+      <div className=" bg-blue-200 h-200 py-10 mb-100">
+        <div className="max-w-7xl mx-auto px-4 mb-100">
           <h1 className="text-5xl text-bold">Stop Overpaying.<br/> Start saving.</h1>
           <div className="flex justify-between items-start">
             <span className="text-2xl italic text-bold"> Create shopping lists, track prices, and find <br/>
@@ -35,24 +29,7 @@ export default function Home() {
         </div>
         
       </div>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
+      
       <div id="features" className="flex justify-center  py-10 border-b border-blue-500 px-4 max-w-7xl mx-auto">
         <div className="max-w-7xl px-2">
           <Image
