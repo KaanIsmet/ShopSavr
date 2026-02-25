@@ -8,7 +8,7 @@ export default function Assistant() {
             <div className="bg-gray-200 h-100 -mt-64">
                 
             </div>
-            <div className="bg-gray-200 h-180">
+            <div className="bg-gray-200 h-180 mb-100">
                 <div className="flex items-center justify-between py-10 px-4 max-w-7xl mx-auto">
                         <div>
                             <h1 className="text-2xl font-bold">
@@ -31,18 +31,6 @@ export default function Assistant() {
                         </div>
                 </div>
             </div>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
         </div>
     );
 }

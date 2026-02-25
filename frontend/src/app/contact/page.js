@@ -59,9 +59,9 @@ export default function Contact() {
 
 
     return (
-        <div>
+        <div className="min-h-screen flex flex-col">
             <Navbar/>
-            <div className="bg-blue-200 py-16 h-150">
+            <main className="flex-1 bg-blue-200 py-16 h-150">
                 <div>
                     <h1 className="text-5xl max-w-2xl mx-75 font-bold my-10">
                         Get in touch with us. We're here to assist you.
@@ -128,7 +128,7 @@ export default function Contact() {
                         {status && <p>{status}</p>}
                     </form>
                 </div>
-            </div>
+            </main>
             <Footer/>
         </div>
     );
